@@ -157,8 +157,8 @@ body {
 
 .pixelMe {
   visibility: hidden;
-  height: 147px;
-  width: 147px;
+  height: 383px;
+  width: 175px;
   margin: 17px auto;
   background: url(../img/favicon.png);
 }
