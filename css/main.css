@@ -162,7 +162,15 @@ body {
   height: 250px;
   width: 250px;
   margin: 17px auto;
-  background: url(../img/favicon.jpg);
+  background: url(../img/favicon-en.jpg);
+}
+
+.pixelSeven {
+  visibility: hidden;
+  height: 250px;
+  width: 250px;
+  margin: 17px auto;
+  background: url(../img/favicon-cn.jpg);
 }
 
 i.service-icon {
