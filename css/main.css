@@ -51,11 +51,7 @@ body {
   border-bottom-left-radius: 20px;
   overflow-y: auto;
   z-index: 1000;
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -ms-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+  transition: all 0.4s ease;
 }
 
 .sidebar-nav {
@@ -114,11 +110,7 @@ body {
 #sidebar-wrapper.active {
   right: 250px;
   width: 250px;
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -ms-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+  transition: all 0.4s ease;
 }
 
 .toggle {
@@ -132,12 +124,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/bg.jpg) no-repeat center center fixed;
-/* background: linear-gradient(to bottom, lightblue, lightgreen); */
-/* background: linear-gradient(to bottom, #669900, #998000) no-repeat center center fixed; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(../img/bg.webp) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -162,7 +149,7 @@ body {
   height: 250px;
   width: 250px;
   margin: 17px auto;
-  background: url(../img/favicon-en.jpg);
+  background: url(../img/favicon-en.webp);
 }
 
 .pixelSeven {
@@ -170,7 +157,7 @@ body {
   height: 250px;
   width: 250px;
   margin: 17px auto;
-  background: url(../img/favicon-cn.jpg);
+  background: url(../img/favicon-cn.webp);
 }
 
 i.service-icon {
@@ -192,7 +179,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/callout.jpg) no-repeat center center fixed;
+  background: url(../img/callout.webp) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -226,16 +213,6 @@ i.service-icon {
   height: 250px;
   border-radius: 50%;
 }
-
-/*.caption {
-    background:rgba(66, 139, 202, 0.75);
-    width:100%;
-    height:25%;
-    padding:2%;
-    text-align:center;
-    color:#fff !important;
-    z-index:2;
-}*/
 
 .caption h4 {
   margin: 0 auto;
@@ -291,11 +268,11 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url(../img/bg.jpg) no-repeat center center scroll; 
+	background: url(../img/bg.webp) no-repeat center center scroll; 
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
+	background: url(../img/callout.webp) no-repeat center center scroll; 
   }
 
   .map {
